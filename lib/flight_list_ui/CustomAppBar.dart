@@ -1,55 +1,5 @@
 import 'package:flutter/material.dart';
 
-// class CustomAppBar extends StatelessWidget {
-//   final List<BottomNavigationBarItem> bottomBarItems = [];
-
-//   CustomAppBar() {
-//     bottomBarItems.add(BottomNavigationBarItem(
-//         icon: Icon(
-//           Icons.home,
-//           color: Colors.black,
-//         ),
-//         title: Text('探索',
-//             style: TextStyle(
-//                 fontWeight: FontWeight.normal))));
-//     bottomBarItems.add(BottomNavigationBarItem(
-//         icon: Icon(
-//           Icons.favorite,
-//           color: Colors.black,
-//         ),
-//         title: Text('列表',
-//             style: TextStyle(
-//                 fontWeight: FontWeight.normal))));
-//     bottomBarItems.add(BottomNavigationBarItem(
-//         icon: Icon(
-//           Icons.local_offer,
-//           color: Colors.black,
-//         ),
-//         title: Text('详情',
-//             style: TextStyle(
-//                 fontWeight: FontWeight.normal))));
-//     bottomBarItems.add(BottomNavigationBarItem(
-//         icon: Icon(
-//           Icons.notifications,
-//           color: Colors.black,
-//         ),
-//         title: Text('通知',
-//             style: TextStyle(
-//                 fontWeight: FontWeight.normal))));
-//   }
-//   @override
-//   Widget build(BuildContext context) {
-//     return Material(
-//       elevation: 15.0,
-//       child: BottomNavigationBar(
-//         onTap: (index){
-
-//         },
-//           items: bottomBarItems, type: BottomNavigationBarType.shifting),
-//     );
-//   }
-// }
-
 class CustomAppBar extends StatefulWidget {
   @override
   _CustomAppBarState createState() => _CustomAppBarState();
