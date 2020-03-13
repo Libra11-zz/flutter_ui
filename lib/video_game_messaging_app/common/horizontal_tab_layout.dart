@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui/model/forum.dart';
+import 'package:flutter_ui/video_game_messaging_app/common/forum_card.dart';
 import 'package:flutter_ui/video_game_messaging_app/common/tab_text.dart';
 
 class HorizontalTabLayout extends StatefulWidget {
@@ -20,8 +22,9 @@ class _HorizontalTabLayoutState extends State<HorizontalTabLayout> {
           left: -20,
           bottom: 0,
           top: 0,
+          width: 110.0,
           child: Padding(
-            padding: EdgeInsets.symmetric(vertical: 100.0),
+            padding: EdgeInsets.symmetric(vertical: 48.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
@@ -48,6 +51,20 @@ class _HorizontalTabLayoutState extends State<HorizontalTabLayout> {
                 ),
               ],
             ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(left: 65.0),
+          child: ListView(
+            scrollDirection: Axis.horizontal,
+            children: <Widget>[
+              ForumCard(
+                forum: fortniteForum,
+              ),
+              ForumCard(
+                forum: pubgForum,
+              ),
+            ],
           ),
         ),
       ]),

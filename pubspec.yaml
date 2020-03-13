@@ -46,6 +46,8 @@ flutter:
    - assets/images/athens.jpg
    - assets/images/lasvegas.jpg
    - assets/images/sydney.jpeg
+   - assets/images/fortnite.jpg
+   - assets/images/pubg.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
