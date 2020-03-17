@@ -6,7 +6,7 @@ class TabText extends StatelessWidget {
   final String text;
   Function onTabTap;
 
-  TabText({this.text, this.isSelected, this.onTabTap});
+  TabText({this.text, this.isSelected = false, this.onTabTap});
 
   @override
   Widget build(BuildContext context) {

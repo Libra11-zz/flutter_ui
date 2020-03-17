@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/model/forum.dart';
+import 'package:flutter_ui/video_game_messaging_app/common/forum_details_widget.dart';
 import 'package:flutter_ui/video_game_messaging_app/common/forum_name_widget.dart';
 
 class ForumCard extends StatelessWidget {
@@ -23,6 +24,11 @@ class ForumCard extends StatelessWidget {
                   forum.imagePath,
                   fit: BoxFit.fitWidth,
                 ),
+                Positioned(
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    child: ForumDetailsWidget(forum: forum)),
                 Positioned(
                     left: 0,
                     bottom: 80.0,
