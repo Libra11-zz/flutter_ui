@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter_ui/model/topic.dart';
 
 class Forum {

@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ui/video_game_messaging_app/styleguide/colors.dart';
 
 class AppBackground extends StatelessWidget {
-  const AppBackground({Key key}) : super(key: key);
+  final Color firstCircleColor, secondCircleColor, thirdCircleColor;
+  const AppBackground(
+      {this.firstCircleColor, this.secondCircleColor, this.thirdCircleColor});
 
   @override
   Widget build(BuildContext context) {
