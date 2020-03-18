@@ -172,13 +172,23 @@ class TopicsTitle extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             mainAxisSize: MainAxisSize.max,
             children: <Widget>[
-              Text(topic.question, style: topicQuestionStyle),
+              Expanded(
+                child: Text(
+                  topic.question,
+                  style: topicQuestionStyle,
+                  overflow: TextOverflow.ellipsis,
+                  maxLines: 1,
+                ),
+              ),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(10.0)),
                     color: primaryColor),
-                child: Text(topic.answerCount, style: topicAnswerStyle),
+                child: Text(
+                  topic.answerCount,
+                  style: topicAnswerStyle,
+                ),
               ),
             ],
           ),

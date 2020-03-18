@@ -9,5 +9,4 @@
 
 ## `video_game_messaging_app`
 [原项目地址](https://github.com/TechieBlossom/video_game_messaging_app)
-
-![image](https://libra321.oss-cn-huhehaote.aliyuncs.com/github/91D6DB67-333F-44F8-9386-3BDEBD4ABE80.png)
+  <img height="500px" src="https://libra321.oss-cn-huhehaote.aliyuncs.com/github/74420714-DDDC-4E8E-BBFB-475FB32CC22F.png"><image width="30"></image><img height="500px" src="https://libra321.oss-cn-huhehaote.aliyuncs.com/github/FD28BB26-3FD7-4688-A749-0988637B17CD.png">

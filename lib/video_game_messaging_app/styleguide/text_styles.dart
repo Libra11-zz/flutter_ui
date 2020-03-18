@@ -20,7 +20,7 @@ final TextStyle defaultTabStyle =
 final TextStyle headingStyle =
     TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0, color: Colors.black);
 final TextStyle subHeadingStyle = TextStyle(
-    fontWeight: FontWeight.bold, fontSize: 30.0, color: Colors.blueGrey);
+    fontWeight: FontWeight.bold, fontSize: 22.0, color: Colors.blueGrey);
 final TextStyle buttonStyle =
     TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0, color: Colors.white);
 final TextStyle forumNameTextStyle =
