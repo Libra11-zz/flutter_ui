@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/model/forum.dart';
+import 'package:flutter_ui/video_game_messaging_app/model/forum.dart';
 import 'package:flutter_ui/video_game_messaging_app/styleguide/text_styles.dart';
 
 class ForumDetailsWidget extends StatelessWidget {

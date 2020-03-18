@@ -1,4 +1,4 @@
-import 'package:flutter_ui/model/topic.dart';
+import 'package:flutter_ui/video_game_messaging_app/model/topic.dart';
 
 class Forum {
   final String title;

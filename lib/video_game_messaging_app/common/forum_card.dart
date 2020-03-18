@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/model/forum.dart';
 import 'package:flutter_ui/video_game_messaging_app/common/forum_details_widget.dart';
 import 'package:flutter_ui/video_game_messaging_app/common/forum_name_widget.dart';
+import 'package:flutter_ui/video_game_messaging_app/model/forum.dart';
 import 'package:flutter_ui/video_game_messaging_app/pages/detail_page.dart';
 
 class ForumCard extends StatelessWidget {

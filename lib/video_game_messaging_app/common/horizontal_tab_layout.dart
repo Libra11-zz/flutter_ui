@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/model/forum.dart';
 import 'package:flutter_ui/video_game_messaging_app/common/forum_card.dart';
 import 'package:flutter_ui/video_game_messaging_app/common/tab_text.dart';
+import 'package:flutter_ui/video_game_messaging_app/model/forum.dart';
 
 class HorizontalTabLayout extends StatefulWidget {
   HorizontalTabLayout({Key key}) : super(key: key);
